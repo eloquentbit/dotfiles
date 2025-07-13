@@ -133,6 +133,7 @@ export WLR_NO_HARDWARE_CURSORS=1
 
 alias hx='helix'
 alias cat='bat'
+alias cz='chezmoi'
 
 export PATH="$HOME/go/bin:$PATH"
 
