@@ -1,0 +1,13 @@
+# Keyboard
+input type:keyboard {
+	xkb_layout "it"
+	xkb_model "pc106"
+}
+
+# Touchpad
+input type:pointer {
+	dwt enabled
+	tap enabled
+	middle_emulation enabled
+	natural_scroll enabled
+}

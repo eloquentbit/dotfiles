@@ -1,0 +1,8 @@
+output "Virtual-1" {
+	mode 3840x2160@60.000Hz
+	pos 3840,0
+	transform normal
+	scale_filter linear
+	scale 1.5
+	subpixel rgb
+}
