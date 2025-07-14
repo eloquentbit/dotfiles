@@ -137,6 +137,8 @@ alias cz='chezmoi'
 
 export PATH="$HOME/go/bin:$PATH"
 
+export XDG_SESSION_TYPE="wayland"
+
 # bun completions
 [ -s "/home/luca/.local/share/reflex/bun/_bun" ] && source "/home/luca/.local/share/reflex/bun/_bun"
 
