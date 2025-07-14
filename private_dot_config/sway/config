@@ -16,11 +16,11 @@ set $right l
 # Your preferred terminal emulator
 set $term foot
 # Your preferred application launcher
-set $menu wmenu-run -f "JetBrainsMono Nerd Font 12" -N 32302f -S 689d6a -M 689d6a -p "Search"
+set $menu wmenu-run -f "ZedMono Nerd Font Mono 13" -N 32302f -S 689d6a -M 689d6a -p "Search"
 
 exec systemctl --user import-environment WAYLAND_DISPLAY DISPLAY XDG_CURRENT_DESKTOP SWAYSOCK I3SOCK XCURSOR_SIZE XCURSOR_THEME
 
-font pango:JetBrainsMono Nerd Font 8
+font pango:ZedMono Nerd Font Mono 10
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
@@ -220,7 +220,7 @@ bindsym $mod+r mode "resize"
 # Read `man 5 sway-bar` for more information about this section.
 bar {
     position top
-    font pango:JetBrainsMono Nerd Font 12
+    font pango:ZedMono Nerd Font Mono 12
 
     # When the status_command prints a new line to stdout, swaybar updates.
     # The default just shows the current date and time.
