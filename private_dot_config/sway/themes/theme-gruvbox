@@ -25,4 +25,8 @@ exec_always {
 	gsettings set $gnome-schema font-name 'Ubuntu 10'
 	gsettings set $gnome-schema icon-theme 'Gruvbox-Material-Dark
 	gsettings set $gnome-schema cursor-theme 'Simp1e-Gruvbox-Dark'
+	gsettings set $gnome-schema monospace-font-name 'ZedMono Nerd Font Mono 10'
+	gsettings set $gnome-schema font-antialiasing 'rgba'
+	gsettings set $gnome-schema font-hinting 'full'
+	gsettings set $gnome-schema font-rgba-order 'rgb'
 }
