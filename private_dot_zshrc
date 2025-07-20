@@ -134,6 +134,7 @@ export WLR_NO_HARDWARE_CURSORS=1
 alias hx='helix'
 alias cat='bat'
 alias cz='chezmoi'
+alias y='yazi'
 
 export PATH="$HOME/go/bin:$PATH"
 
@@ -145,3 +146,4 @@ export XDG_SESSION_TYPE="wayland"
 # bun
 export BUN_INSTALL="$HOME/.local/share/reflex/bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
+eval "$(mise activate zsh)"
