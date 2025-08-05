@@ -21,6 +21,8 @@ set $menu wmenu-run -f "ZedMono Nerd Font Mono 13" -N 32302f -S 689d6a -M 689d6a
 #exec systemctl --user import-environment WAYLAND_DISPLAY DISPLAY XDG_CURRENT_DESKTOP=sway SWAYSOCK I3SOCK XCURSOR_SIZE XCURSOR_THEME
 exec dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP
 
+exec wl-paste -t text --watch clipman store --no-persist
+
 font pango:ZedMono Nerd Font Mono 10
 ### Output configuration
 #
