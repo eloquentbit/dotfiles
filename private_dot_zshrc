@@ -137,8 +137,8 @@ alias cz='chezmoi'
 alias y='yazi'
 
 export PATH="$HOME/go/bin:$PATH"
-
 export XDG_SESSION_TYPE="wayland"
+export BAT_PAGER="ov -F -H3"
 
 # bun completions
 [ -s "/home/luca/.local/share/reflex/bun/_bun" ] && source "/home/luca/.local/share/reflex/bun/_bun"
